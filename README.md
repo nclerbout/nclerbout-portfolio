@@ -63,5 +63,32 @@ Apprenez-en un peu plus sur ma carrière précédente et comment [elle m'a permi
 
 # Outils
 
+- Frameworks
+  - MITRE ATT&CK
+  - Cyber KillChain
+
+- SIEM
+  - Elastic
+  - Splunk
+
+- SOAR
+  - TheHive (+ Cortex)
+
+- EDR
+  - Wazuh
+
+- Réseau
+  - Wireshark
+  - Snort
+
+- Scripting
+  - Python
+
+- Autres
+  - VirusTotal, Talos Intelligence, OTX Alienvault, Any.Run, ...
+  - N8N
+  - OpenCTI
+  - T-Pot
+
 
 
