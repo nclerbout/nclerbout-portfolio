@@ -29,7 +29,7 @@ Ce portfolio présente les différents projets réalisés pendant ma formation e
 
 # Projets et compétences
 
-## Projet technique personnel
+## Dernière Réalisation Personnelle
 
 | Nom                                                                                                             | Compétences | Soft Skills |
 |-----------------------------------------------------------------------------------------------------------------|-------------|-------------|
