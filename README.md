@@ -16,7 +16,7 @@ Mon portfolio est amené à évoluer, n'hésitez pas à revenir le visiter !
 
 - Mon CV
 - A propos de moi, ma carrière précédente et mes compétences transversales
-- Projets et compétences
+- [Projets et compétences](https://github.com/nclerbout/projects-list)
 - Autres expériences en cyber
 - Liste d'outils avec lesquels je suis familier
 
