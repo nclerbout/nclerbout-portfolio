@@ -15,7 +15,7 @@ Mon portfolio est amené à évoluer, n'hésitez pas à revenir le visiter !
 ### Ce que vous y trouverez :
 
 - Mon CV
-- A propos de moi, ma carrière précédente et mes compétences transversales
+- [A propos de moi](https://github.com/nclerbout/about_me/blob/main/README.md), ma carrière précédente et mes compétences transversales
 - [Projets et compétences](https://github.com/nclerbout/projects-list)
  > Aussi sous forme de carte mentale [ici](https://github.com/nclerbout/nclerbout-portfolio/blob/main/carte_mentale.pdf)
 - Autres expériences en cyber
