@@ -1,0 +1,50 @@
+{
+"id":"cfa32370-deb7-11ed-85f0-bbe0ac6c953a",
+"updated_at":"2024-07-31T12:30:34.921Z",
+"updated_by":"analyst",
+"created_at":"2023-04-19T13:40:56.792Z",
+"created_by":"elastic",
+"name":"Multiples échecs de connexion Windows",
+"tags":[],
+"interval":"5m",
+"enabled":true,
+"description":"Multiples échecs de connexion sur une machine Windows.",
+"risk_score":47,
+"severity":"medium",
+"license":"",
+"output_index":"",
+"meta":
+{
+"from":"1m",
+"kibana_siem_app_url":"http://127.0.0.1:5601/app/security"
+},
+"author":[],
+"false_positives":[],
+"from":"now-360s",
+"rule_id":"e1c484ea-f737-47ab-a485-a802d1b4c64e",
+"max_signals":100,
+"risk_score_mapping":[],
+"severity_mapping":[],
+"threat":[],
+"to":"now",
+"references":[],
+"version":8,
+
+"exceptions_list":[{"list_id":"0cf2db1e-9f9c-4273-bdfe-20c974cbd3d3","namespace_type":"single","id":"46a06200-debb-11ed-85f0-bbe0ac6c953a","type":"rule_default"}],"immutable":false,"related_integrations":[],"required_fields":[],"setup":"","type":"threshold","language":"kuery","index":["winlogbeat-*"],"query":"event.code: \"4625\"","filters":[],"threshold":{"field":["user.name"],"value":25,"cardinality":[]},"throttle":"no_actions","actions":[]}
+
+{"_version":"Wzc1NDgsNF0=","created_at":"2023-04-19T14:05:44.352Z","created_by":"elastic","description":"Exception list containing exceptions for rule with id: cfa32370-deb7-11ed-85f0-bbe0ac6c953a","id":"46a06200-debb-11ed-85f0-bbe0ac6c953a","immutable":false,"list_id":"0cf2db1e-9f9c-4273-bdfe-20c974cbd3d3","name":"Exceptions for rule - Multiples échecs de connexion Windows","namespace_type":"single","os_types":[],"tags":["default_rule_exception_list"],"tie_breaker_id":"4c37415a-0cf5-441f-ac3e-bf7a31f474eb","type":"rule_default","updated_at":"2023-04-19T14:05:44.352Z","updated_by":"elastic","version":1}
+
+{"_version":"WzI3NzA4LDE1XQ==",
+"comments":[{"comment":"Echecs liés au blocage du compte, à ne pas inclure dans les alertes","created_at":"2024-07-31T12:29:24.045Z","created_by":"analyst","id":"c644a294-b7f1-4606-81e9-5436131d845f"}],
+"created_at":"2024-07-31T12:29:24.045Z","created_by":"analyst","description":"Exception list item",
+
+"entries":[{"field":"winlog.logon.failure.reason","operator":"included","type":"match","value":"Account currently disabled."}],
+"id":"850847d0-4f38-11ef-9cc5-07ff2baa3ed3","item_id":"f571b091-7967-43dd-a798-3803549f128c","list_id":"0cf2db1e-9f9c-4273-bdfe-20c974cbd3d3","name":"Comptes temporairement désactivés","namespace_type":"single","os_types":[],"tags":[],"tie_breaker_id":"b98d272b-e739-4c86-907d-b4de9f0f8499","type":"simple","updated_at":"2024-07-31T12:29:24.045Z","updated_by":"analyst"}
+
+{"_version":"WzI3NjkyLDE1XQ==",
+"comments":[{"comment":"connu en interne. Non malveillant","created_at":"2024-07-31T12:28:22.605Z","created_by":"analyst","id":"8ce9ce8f-21d0-4637-bc69-b33baa8758a5"}],
+"created_at":"2024-07-31T12:28:22.605Z","created_by":"analyst","description":"Exception list item",
+"entries":[{"field":"user.name","operator":"included","type":"match","value":"svc_test"}],
+"id":"606947d0-4f38-11ef-9cc5-07ff2baa3ed3","item_id":"d6c8f478-05dd-4dfb-9c01-47118757bdbf","list_id":"0cf2db1e-9f9c-4273-bdfe-20c974cbd3d3","name":"User svc_test","namespace_type":"single","os_types":[],"tags":[],"tie_breaker_id":"72f6894b-757b-41ea-8f81-db74c04563bc","type":"simple","updated_at":"2024-07-31T12:28:22.605Z","updated_by":"analyst"}
+
+{"exported_count":4,"exported_rules_count":1,"missing_rules":[],"missing_rules_count":0,"exported_exception_list_count":1,"exported_exception_list_item_count":2,"missing_exception_list_item_count":0,"missing_exception_list_items":[],"missing_exception_lists":[],"missing_exception_lists_count":0,"exported_action_connector_count":0,"missing_action_connection_count":0,"missing_action_connections":[],"excluded_action_connection_count":0,"excluded_action_connections":[]}

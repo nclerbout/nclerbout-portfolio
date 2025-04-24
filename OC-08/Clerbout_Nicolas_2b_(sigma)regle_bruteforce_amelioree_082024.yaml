@@ -1,0 +1,34 @@
+title: Multiples échecs de connexion Windows
+id: a432ab29-e021-4a93-b993-57fedcd7f0ba
+status: test
+description: génère une alerte quand le nombre d'échecs d'authentification dépasse un seuil défini
+author: N. Clerbout
+date: 07/08/2024
+# modified: (date)
+
+tags:
+  - attack.bruteforce
+  - attack.t1110
+
+logsource:
+  category: windows
+  product: windows
+  service: winlogbeat
+
+detection:
+  selection:
+    event.code: 4625
+  filter_1:
+    user.name: 'svc_test'
+  filter_2:
+    winlog.logon.failure.reason: 'Account currently disabled'
+  condition: selection and (not filter_1 or not filter_2) | count() by user.name >= 25 within 6m
+
+fields:
+  - user.name
+  - host.name
+
+schedule:
+  interval: 5m
+
+level: medium
