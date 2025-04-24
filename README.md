@@ -7,17 +7,9 @@
 
 En **reconversion professionnelle**, je me forme à la cybersécurité pour devenir analyste SOC et contribuer à la défense des informations des entreprises et des personnes.
 
-Ce portfolio présente les différents projets réalisés pendant ma formation. Il illustre les compétences que je mobiliserai pour contribuer à une vie numérique plus sûre.
+Ce dépôt contient les livrables réalisés pour les projets de ma formation chez OpenClassrooms, et des captures d'écran réalisées lors de la réalisation de projets personnels.
+
+La Carte Mentale offre une vue globale sur les différents projets listés ici et leurs liens avec les compétences développées et les outils utilisés.
 
 Mon portfolio est amené à évoluer, n'hésitez pas à revenir le visiter !
-
-
-### Ce que vous y trouverez :
-
-- Mon CV
-- [A propos de moi](https://github.com/nclerbout/about_me/blob/main/README.md), ma carrière précédente et mes compétences transversales
-- [Projets et compétences](https://github.com/nclerbout/projects-list)
- > Aussi sous forme de carte mentale [ici](https://github.com/nclerbout/nclerbout-portfolio/blob/main/carte_mentale.pdf)
-- Autres expériences en cyber
-- Liste d'outils avec lesquels je suis familier
 
