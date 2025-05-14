@@ -18,7 +18,14 @@
 Le premier objectif était d'installer de bout en bout Splunk (et le forwarder sur une autre machine) au lieu de simplement utiliser un lab virtuel pré-configuré comme cela avait pu être le cas lors de la formation.
 Un autre objectif était de me familiariser avec l'outil Splunk dans ses fonctions basiques (collecte et indexation de logs, recherches, création de règles de détection) puisque mon expérience avec cet outil particulier était limitée à la création d'un dashboard simple jusqu'ici.
 
+Pour l'installation de Splunk et du forwarder universel, voir :
+- [https://iritt.medium.com/setting-up-splunk-for-log-management-on-kali-linux-for-your-cybersecurity-home-lab-039fdcff60dd](https://iritt.medium.com/setting-up-splunk-for-log-management-on-kali-linux-for-your-cybersecurity-home-lab-039fdcff60dd)
+- [https://iritt.medium.com/setting-up-the-splunk-universal-forwarder-on-kali-linux-for-your-cybersecurity-home-lab-c153d19215dc](https://iritt.medium.com/setting-up-the-splunk-universal-forwarder-on-kali-linux-for-your-cybersecurity-home-lab-c153d19215dc)
+
 
 ## Captures d'écran :
+
+- Lancement du service Splunk sur la VM 1, utilisation de l'interface web et indexaction de /var/log
+
 
 (à venir)
