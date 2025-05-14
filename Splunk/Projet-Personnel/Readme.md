@@ -26,8 +26,8 @@ Pour l'installation de Splunk et du forwarder universel, voir :
 ## Captures d'écran :
 
 - Lancement du service Splunk sur la VM 1, utilisation de l'interface web et indexaction de /var/log
-![lancement service Splunk](/img/P11_01.png)
-![interface web Splunk](/img/P11_02.png)
-![indexation /var/log](/img/P11_03.png)
+![lancement service Splunk](/Splunk/Projet-Personnel/img/P11_01.png)
+![interface web Splunk](/Splunk/Projet-Personnel/img/P11_02.png)
+![indexation /var/log](/Splunk/Projet-Personnel/img/P11_03.png)
 
 (à venir)
