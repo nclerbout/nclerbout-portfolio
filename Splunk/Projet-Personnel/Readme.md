@@ -2,7 +2,7 @@
 ## Objectifs
 1. Utilisation d'un Lab virtuel pour pratiquer l'analyse de logs : 2 VMs sous Linux (VM 1 : Kali Linux ; VM 2 : Ubuntu)
 2. Installation de Splunk (sur VM 1) : Utilisation de l'interface web (sur http://localhost:8000), indexation de /var/log
-3. Création d'un script Python pour générer un fichier de log basé sur un scénario d'attaque bruteforce sur SSH
+3. Création d'un script Python (scrpt_auth_json.py) pour générer un fichier de log basé sur un scénario d'attaque bruteforce sur SSH
    Création d'une règle de détection basique pour repérer les attaques similaires
 5. Installation du forwarder universel de Splunk (sur VM 2)
 6. Configuration de la collecte des logs de VM 2 sur VM 1
@@ -34,11 +34,15 @@ Pour l'installation de Splunk et du forwarder universel, voir :
   - Création du fichier via script Python + indexation dans Splunk
     ![creation_fichier](/Splunk/Projet-Personnel/img/P11_04.png)
     ![indexation fichier](/Splunk/Projet-Personnel/img/P11_05.png)
+
   - Recherche dans Splunk pour détecter la tentative de bruteforce
     ![recherche_bruteforce](/Splunk/Projet-Personnel/img/P11_06.png)
+
   - Création d'une alerte à partir de la requête
     ![creation_alerte](/Splunk/Projet-Personnel/img/P11_07.png)
+
   - Nouvelle simulation d'attaque et vérification du déclenchement de l'alerte
     ![declenchement_alerte](/Splunk/Projet-Personnel/img/P11_08.png)
+
 
 (à venir)
