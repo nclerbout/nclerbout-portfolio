@@ -45,4 +45,12 @@ Pour l'installation de Splunk et du forwarder universel, voir :
     ![declenchement_alerte](/Splunk/Projet-Personnel/img/P11_08.png)
 
 
-(à venir)
+- Installation et lancement du Forwarder sur la VM 2 + configuration de l'envoi et la réception de logs sur la VM 1 (port 9997)
+  ![statut_forwarder](/Splunk/Projet-Personnel/img/P11_09.png)
+  ![config_reception](/Splunk/Projet-Personnel/img/P11_10.png)
+  ![config_envoi](/Splunk/Projet-Personnel/img/P11_11.png)
+  
+- Utilisation de la commande "logger" pour créer un log + vérification de la bonne réception sur Splunk
+  ![logger](/Splunk/Projet-Personnel/img/P11_12.png)
+  ![reception_logger](/Splunk/Projet-Personnel/img/P11_13.png)
+
