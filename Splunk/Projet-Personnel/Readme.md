@@ -30,4 +30,15 @@ Pour l'installation de Splunk et du forwarder universel, voir :
 ![interface web Splunk](/Splunk/Projet-Personnel/img/P11_02.png)
 ![indexation /var/log](/Splunk/Projet-Personnel/img/P11_03.png)
 
+- Chargement et indexation d'un fichier de logs (json) simulant une attaque bruteforce sur SSH
+- - Création du fichier via script Python + indexation dans Splunk
+    ![creation_fichier](/Splunk/Projet-Personnel/img/P11_04.png)
+    ![indexation fichier](/Splunk/Projet-Personnel/img/P11_05.png)
+  - Recherche dans Splunk pour détecter la tentative de bruteforce
+    ![recherche_bruteforce](/Splunk/Projet-Personnel/img/P11_06.png)
+  - Création d'une alerte à partir de la requête
+    ![creation_alerte](/Splunk/Projet-Personnel/img/P11_07.png)
+  - Nouvelle simulation d'attaque et vérification du déclenchement de l'alerte
+    ![declenchement_alerte](/Splunk/Projet-Personnel/img/P11_08.png)
+
 (à venir)
